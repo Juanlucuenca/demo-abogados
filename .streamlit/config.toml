@@ -1,0 +1,59 @@
+[global]
+# Configuración global de Streamlit
+
+# Desactivar el modo de desarrollo
+developmentMode = false
+
+# Mostrar notificaciones de errores
+showErrorDetails = true
+
+[server]
+# Configuración del servidor
+
+# Puerto por defecto
+port = 8501
+
+# Dirección del servidor
+address = "localhost"
+
+# Habilitar CORS
+enableCORS = false
+
+# Habilitar XSS protection
+enableXsrfProtection = true
+
+# Tamaño máximo de upload (en MB)
+maxUploadSize = 200
+
+# Habilitar recarga automática en cambios
+runOnSave = true
+
+[browser]
+# Configuración del navegador
+
+# Recopilar estadísticas de uso
+gatherUsageStats = false
+
+# Abrir automáticamente en el navegador
+serverAddress = "localhost"
+
+[theme]
+# Configuración del tema
+
+# Colores principales (opcional - se pueden sobrescribir con CSS)
+primaryColor = "#1e3a8a"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8fafc"
+textColor = "#1f2937"
+
+# Fuente
+font = "sans serif"
+
+[client]
+# Configuración del cliente
+
+# Mostrar la barra lateral expandida por defecto
+showSidebarNavigation = true
+
+# Ocultar el menú de hamburguesa
+toolbarMode = "minimal" 
